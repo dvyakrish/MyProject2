@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-22T15:26:32.212Z",
+        "line": 3,
+        "name": "Verify data table for login",
+        "description": "",
+        "id": "data-table-verification;verify-data-table-for-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Amazon Application",
+            "match": {
+              "location": "StepDefinitions.DataVerifySteps.launch_the_amazon_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the userName and Password",
+            "match": {
+              "location": "StepDefinitions.DataVerifySteps.enter_the_user_name_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "9597752727",
+                  "12365489"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinitions.DataVerifySteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T15:26:32.415Z",
+        "line": 11,
+        "name": "Verify data table for Search Field",
+        "description": "",
+        "id": "data-table-verification;verify-data-table-for-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Launch the Amazon Application",
+            "match": {
+              "location": "StepDefinitions.DataVerifySteps.launch_the_amazon_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Search for the items",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Mobiles"
+                ]
+              },
+              {
+                "cells": [
+                  "Kitchens"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Data Table Verification",
+    "description": "",
+    "id": "data-table-verification",
+    "keyword": "Feature",
+    "uri": "file:Features/DataVerification.feature",
+    "tags": []
+  }
+]
