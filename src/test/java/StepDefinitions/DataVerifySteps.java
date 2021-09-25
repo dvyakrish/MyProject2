@@ -75,7 +75,9 @@ public class DataVerifySteps {
 		Locator.getSearchText().clear();
 		Locator.getSearchText().sendKeys(searchList.get(1));
 		Locator.getsearchButton().click();
-		
+		Locator.getSearchText().clear();
+		Locator.getSearchText().sendKeys(searchList.get(2));
+		Locator.getsearchButton().click();
 	}
 
 

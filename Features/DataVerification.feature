@@ -12,3 +12,4 @@ Given Launch the Amazon Application
 Then Search for the items
 |Mobiles|
 |Kitchens|
+|WaterBottles|
