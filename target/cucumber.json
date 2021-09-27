@@ -3,8 +3,8 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-25T14:18:45.067Z",
-        "line": 3,
+        "start_timestamp": "2021-09-26T15:38:51.757Z",
+        "line": 4,
         "name": "Verify data table for login",
         "description": "",
         "id": "data-table-verification;verify-data-table-for-login",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8373616400,
+              "duration": 8897021800,
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "Launch the Amazon Application",
             "match": {
               "location": "StepDefinitions.DataVerifySteps.launch_the_amazon_application()"
@@ -25,10 +25,10 @@
           },
           {
             "result": {
-              "duration": 2686980000,
+              "duration": 6341108100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "Enter the userName and Password",
             "match": {
               "location": "StepDefinitions.DataVerifySteps.enter_the_user_name_and_password(io.cucumber.datatable.DataTable)"
@@ -49,57 +49,10 @@
             ],
             "keyword": "When "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-25T14:18:56.535Z",
-        "line": 10,
-        "name": "Verify data table for Search Field",
-        "description": "",
-        "id": "data-table-verification;verify-data-table-for-search-field",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 6921799900,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Launch the Amazon Application",
-            "match": {
-              "location": "StepDefinitions.DataVerifySteps.launch_the_amazon_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 15629897800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Search for the items",
-            "match": {
-              "location": "StepDefinitions.DataVerifySteps.search_for_the_items(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Mobiles"
-                ]
-              },
-              {
-                "cells": [
-                  "Kitchens"
-                ]
-              },
-              {
-                "cells": [
-                  "WaterBottles"
-                ]
-              }
-            ],
-            "keyword": "Then "
+            "name": "@TS_01"
           }
         ]
       }

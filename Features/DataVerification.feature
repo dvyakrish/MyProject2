@@ -1,6 +1,8 @@
 Feature: Data Table Verification
 
+@TS_01
 Scenario: Verify data table for login
+
 
 Given Launch the Amazon Application
 When Enter the userName and Password

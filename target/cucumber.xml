@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="34.51">
-    <testcase classname="Data Table Verification" name="Verify data table for login" time="11.438">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.749">
+    <testcase classname="Data Table Verification" name="Verify data table for login" time="15.415">
         <system-out><![CDATA[Given Launch the Amazon Application.........................................passed
 When Enter the userName and Password........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Data Table Verification" name="Verify data table for Search Field" time="22.556">
-        <system-out><![CDATA[Given Launch the Amazon Application.........................................passed
-Then Search for the items...................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
